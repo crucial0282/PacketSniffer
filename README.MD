@@ -24,9 +24,8 @@ It provides deep insights into packet-level data such as Ethernet, IP, TCP, UDP,
 
 ---
 
-## 📸 Sample Output
-
-Ethernet Frame: 08:00:27:xx:xx:xx -> ff:ff:ff:ff:ff:ff, Type: 2048
-IP Packet: 192.168.1.2 -> 8.8.8.8, Protocol: 17
-UDP Datagram: 192.168.1.2:54500 -> 8.8.8.8:53
-DNS Query: example.com.
+## 📸 Sample Output:
+        Ethernet Frame: 08:00:27:xx:xx:xx -> ff:ff:ff:ff:ff:ff, Type: 2048
+        IP Packet: 192.168.1.2 -> 8.8.8.8, Protocol: 17
+        UDP Datagram: 192.168.1.2:54500 -> 8.8.8.8:53
+        DNS Query: example.com.
