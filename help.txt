@@ -1,0 +1,52 @@
+📦 Packet Sniffer - Quick Help
+
+This is a Python-based packet sniffer built using Scapy.
+
+───────────────────────────────────────────────
+▶ Requirements:
+
+1. Python 3.x
+2. Scapy Library
+
+Install dependencies:
+    pip install -r requirements.txt
+
+───────────────────────────────────────────────
+▶ How to Run:
+
+[ Linux / macOS ]
+    sudo python packet_sniffer.py
+
+[ Windows (Run as Administrator) ]
+    python packet_sniffer.py
+
+───────────────────────────────────────────────
+▶ What It Does:
+
+- Captures live network traffic
+- Shows Ethernet, IP, TCP, UDP, and DNS layer details
+- Identifies DNS queries & responses
+- Highlights traffic flow between source and destination
+
+───────────────────────────────────────────────
+▶ Stop Sniffer:
+
+Press Ctrl + C to stop the sniffer
+
+───────────────────────────────────────────────
+▶ Example Output:
+
+================================================================================
+Ethernet Frame: 08:00:27:xx:xx:xx -> ff:ff:ff:ff:ff:ff, Type: 2048
+IP Packet: 192.168.1.2 -> 8.8.8.8, Protocol: 17
+UDP Datagram: 192.168.1.2:54500 -> 8.8.8.8:53
+DNS Query: example.com.
+
+───────────────────────────────────────────────
+🔐 Use Responsibly:
+
+This tool is meant for educational and authorized use only.
+Sniffing network traffic without permission is illegal.
+
+───────────────────────────────────────────────
+👤 Author: Chirag Chawla
